@@ -44,35 +44,3 @@ reset.addEventListener("click", function(){
     p2Counter.textContent = number2;
     p2Counter.style.color = "black";
 });
-
-// let number = 0;
-// let maxNumber = 0;
-// heading.textContent = `Number: ${number}`;
-
-// plus.addEventListener("click", function(){
-//     if(number < maxNumber){
-//         number++;
-//         heading.textContent = `Number: ${number}`;
-//         maxNumber = input.value;
-//     } else {
-//         heading.style.color = "red";
-//     }
-    
-// });
-
-// minus.addEventListener("click", function(){
-//     if(number != maxNumber){
-//         number--;
-//         heading.textContent = `Number: ${number}`;
-//     }
-    
-// });
-
-// input.addEventListener("change", function(){
-//     if(number != maxNumber){
-//         maxNumber = input.value;
-//     } else {
-//         maxNumber = 1;
-//     }
-    
-// });
